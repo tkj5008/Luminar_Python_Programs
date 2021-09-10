@@ -1,0 +1,21 @@
+/* tagname or id or classname{
+    property:value;
+    property:value;
+ } */
+
+ h1{
+     color:red;
+ }
+
+ #U1{
+     color:#ab34eb;
+     
+ }
+ #U2{
+    color:purple;
+    
+}
+.U3{
+    color:tomato;
+    
+}
