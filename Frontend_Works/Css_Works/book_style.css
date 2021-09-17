@@ -10,7 +10,7 @@ img{
 /* Percentage value  depends on its parent,here
  the parent ofimage is div */
     width:100%;
-    height:100%;
+    height:50%;
 
 }
 
