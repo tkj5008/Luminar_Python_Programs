@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+body{
+   background-color: black; 
+}
+.head h1{
+    color:white;
+    text-align: center;
+    font-family: 'Gluten', cursive;
+
+}
+div{
+    width:10%;
+    height:200px;
+    float:left;
+    border: 1px solid rgb(250, 249, 249);
+}
+.box1{
+    margin-left: 320px;
+    background-color: chartreuse;
+}
+.box2{
+    margin-left: 5px;
+    background-color: rgb(255, 0, 0);
+}
+.box3{
+    margin-left: 5px;
+    background-color:blue ;
+}
+.box4{
+    margin-left: 5px;
+    background-color: green;
+}
+.box5{
+    margin-left: 5px;
+    background-color:violet;
+}

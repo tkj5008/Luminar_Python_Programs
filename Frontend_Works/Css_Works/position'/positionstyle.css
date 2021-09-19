@@ -1,0 +1,47 @@
+.row{
+    width:60%;
+    height:300px;
+    background-color: teal;
+    position: relative;
+    left:20%;
+    margin-top: 10px ;
+    
+}
+.col{
+    width:22%;
+    height:250px;
+    position: absolute;
+    top: 5%;
+}
+.col-1{
+    background-color: tomato;
+    left:1%
+}
+.col-2{
+    background-color:thistle;
+    left: 24%;
+}
+.col-3{
+    background-color:violet;
+    left: 
+    47%;
+}
+.col-4{
+    background-color: yellow;
+    left: 70%;
+}
+.fixed{
+    width:100px;
+    height:150px;
+    background-color: rebeccapurple;
+    position:fixed;
+    left:85%;
+    top:50%;
+}
+.sticky{
+    width:100px;
+    height:150px;
+    background-color: rgb(3, 73, 15);
+    position:sticky;
+    top:5%;
+}
