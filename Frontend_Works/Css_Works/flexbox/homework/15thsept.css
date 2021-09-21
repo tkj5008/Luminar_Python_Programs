@@ -10,12 +10,12 @@
     margin: 10px;
     text-decoration-style: solid;
 }
-a{
+.col a{
     text-decoration: none;
    
 }
-a:hover{
+.col a:hover{
     background-color:gray;
-    border: 1px:solid:gray;
+    border: 1px solid gray;
     border-radius:30%;
 }

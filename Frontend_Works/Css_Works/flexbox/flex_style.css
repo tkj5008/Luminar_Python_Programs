@@ -4,8 +4,8 @@ body{
     
 }
 .row{
-width: 40%;
-height:400px;
+width: 60%;
+/* height:400px; */
 background-color: blueviolet;
 border: 1px solid rgb(136, 16, 16);
 display: flex;
@@ -13,7 +13,7 @@ justify-content: space-evenly;
 align-items: center;
 }
 .col{
-width: 25%;
+width: 40%;
 height:200px;
 border: 1px solid black;
 }
@@ -22,8 +22,17 @@ background-color: brown;
 }
 .row .col:nth-child(2){
  background-color: aqua; 
- flex: 1;  
+ /* flex: 1;   */
 }
 .row .col:nth-child(3){
  background-color: teal;   
+}
+@media (max-width:500px){
+    .row{
+        flex-direction: column;
+    }
+    .col{
+        width:70%;
+        padding: 20px;
+    }
 }
